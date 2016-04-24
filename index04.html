@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>进阶3</title>
+
+</head>
+<body style="padding: 10px;" ng-app="app">
+	<div ng-controller="FirstCtrl">
+		<!-- <h1>{{msg}}</h1> -->
+		<input type="text" ng-model="msg"></input>
+		<h1 ng-bind="msg"></h1>
+	</div>
+	<div ng-controller="NextCtrl">
+	<input type="text" ng-model="msg"></input>
+		<h1 ng-bind="msg"></h1>
+	</div>
+</body>
+<script src="js/angular.min.js"></script>
+<script src="js/myctrl.js"></script>
+</html>
